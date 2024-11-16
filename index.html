@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Architecture</title>
+		<meta charset="utf-8"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="alt"><div class="logo">Company name</div>
+				<a href="#menu">Menu</a>
+			</header>
+			<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="news.html">News</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="office.html">Office</a></li>
+				</ul>
+			</nav>
+			<!-- Banner -->
+			<section class="banner full">
+				<article><img src="images/slide01.jpg" alt="" width="1440" height="961">
+					<div class="inner">
+						<header>
+							<p>Briefly describe its features</p>
+							<h2>Project name</h2>
+						</header>
+					</div>
+				</article>
+				<article><img src="images/slide02.jpg" alt="" width="1440" height="961">
+					<div class="inner">
+						<header><p>Briefly describe its features</p>
+							<h2>Project name</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="images/slide03.jpg" alt="" width="1440" height="962">
+					<div class="inner">
+						<header>
+							<p>Briefly describe its features</p>
+							<h2>Project name</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="images/slide04.jpg" alt="" width="1440" height="961"><div class="inner">
+						<header>
+							<p>Briefly describe its features</p>
+							<h2>Project name</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="images/slide05.jpg" alt="" width="1440" height="962">
+					<div class="inner">
+						<header>
+							<p>Briefly describe its features</p>
+							<h2>Project name</h2>
+						</header></div>
+				</article>
+			</section>
+			<!-- One -->
+			<section id="one" class="wrapper style2">
+				<div class="inner">
+					<h2 class="align-center">Recent projects</h2>
+					<div class="grid-style">
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/pic02.jpg" alt="" width="600" height="300"></div>
+								<div class="content">
+									<header class="align-center">
+										<p>maecenas sapien feugiat ex purus</p>
+										<h2>Lorem ipsum dolor</h2>
+									</header>
+									<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.</p>
+									<footer class="align-center">
+										<a href="#" class="button alt">Learn More</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/pic02.jpg" alt="" width="600" height="300">
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>mattis elementum sapien pretium tellus</p>
+										<h2>Vestibulum sit amet</h2>
+									</header>
+									<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.</p>
+									<footer class="align-center"><a href="#" class="button alt">Learn More</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Hidden Content -->
+				<div class="new-content" id="newContent">
+					<div class="wrapper style2">
+						<div class="inner">
+							<div class="grid-style">
+								<div>
+									<div class="box">
+										<div class="image fit">
+											<img src="images/pic02.jpg" alt="" width="600" height="300"></div>
+										<div class="content">
+											<header class="align-center">
+												<p>maecenas sapien feugiat ex purus</p>
+												<h2>Lorem ipsum dolor</h2>
+											</header>
+											<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.</p>
+											<footer class="align-center">
+												<a href="#" class="button alt">Learn More</a>
+											</footer>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="box">
+										<div class="image fit">
+											<img src="images/pic02.jpg" alt="" width="600" height="300"></div>
+										<div class="content">
+											<header class="align-center">
+												<p>maecenas sapien feugiat ex purus</p>
+												<h2>Lorem ipsum dolor</h2>
+											</header>
+											<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.</p>
+											<footer class="align-center">
+												<a href="#" class="button alt">Learn More</a>
+											</footer>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- See More/See Less-->
+				<div class="inner">
+					<div class="align-center">
+						<button class="see-more-btn" id="seeMoreBtn">See More</button>
+					</div>
+				</div>
+				<script>
+					const seeMoreBtn = document.getElementById('seeMoreBtn');
+					const newContent = document.getElementById('newContent');
+
+
+					seeMoreBtn.addEventListener('click', () => {
+						const isContentVisible = newContent.style.display === 'block';
+
+						if (isContentVisible) {
+							newContent.style.display = 'none';
+							seeMoreBtn.textContent = 'See More';
+							seeMoreBtn.style.top = '-10vh';
+						} else {
+							newContent.style.display = 'block';
+							seeMoreBtn.textContent = 'See Less';
+							seeMoreBtn.style.top = '-20vh';
+						}
+					});
+				</script>
+				
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons"><li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+			</footer>
+			<div class="copyright">
+			Made by Company.
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script></body></html>
